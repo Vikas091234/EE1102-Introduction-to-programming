@@ -1,227 +1,252 @@
 # EE1102 – Introduction to Programming Coursework
 
-A collection of programming exercises completed for **EE1102 – Introduction to Programming** at IIT Madras.
+Coursework and programming assignments completed for **EE1102 – Introduction to Programming** at IIT Madras.
 
-The repository is organized by assignment and focuses on progressively developing programming fundamentals in C, with one early exercise implemented in C++.
-
-## Course Progression
-
-The coursework progresses from basic console programs and arithmetic to pointers, dynamic memory, strings, bit manipulation, numerical methods, and data structures.
-
-```text
-Basic C programs
-      ↓
-Data types & arithmetic
-      ↓
-Conditionals & mathematical programming
-      ↓
-Loops & numerical approximation
-      ↓
-Functions & recursion
-      ↓
-Arrays, strings & modular programming
-      ↓
-Bit manipulation
-      ↓
-Pointers & file handling
-      ↓
-Structures, dynamic memory & linked lists
-```
+The repository contains C/C++ implementations for Assignments 0–9, together with the corresponding problem statements and assignment-level documentation.
 
 ## Repository Structure
 
 ```text
-EE1102_Introduction_to_Programming/
+assignments/
 ├── README.md
-├── .gitignore
-│
-└── assignments/
-    ├── Assignment_1/
-    ├── Assignment_2/
-    ├── Assignment_3/
-    ├── Assignment_4/
-    ├── Assignment_5/
-    ├── Assignment_6/
-    ├── Assignment_7/
-    ├── Assignment_8/
-    └── Assignment_10/
+├── Assignment_0/
+├── Assignment_1/
+├── Assignment_2/
+├── Assignment_3/
+├── Assignment_4/
+├── Assignment_5/
+├── Assignment_6/
+├── Assignment_7/
+├── Assignment_8/
+└── Assignment_9/
 ```
 
-The original problem-statement PDFs and lecture notes are intentionally not included. The repository contains the implementation code and assignment-level documentation rather than copied course material.
+Each assignment folder contains the source files for that assignment, its README, and the corresponding problem-statement PDF.
 
-## Assignments
+> **Note:** The `EE1103 – Numerical Methods` labels appearing in the source/header material of `Assignment_8` are treated here as a labeling error. This repository is being documented as **EE1102 coursework**, consistent with the surrounding assignments and the intended repository structure.
 
-### Assignment 1 — Basic C Programming
+## Assignment Overview
 
-Introduces the structure of a C program, variables, arithmetic expressions, formatted input/output, and basic console interaction.
+| Folder | Assignment | Main topics |
+|---|---:|---|
+| `Assignment_0` | 0 | Basic C programming, variables, arithmetic, input/output |
+| `Assignment_1` | 1 | Data types, arithmetic, strings, integer limits |
+| `Assignment_2` | 2 | Conditionals, quadratic equations, polynomial operations |
+| `Assignment_3` | 3 | Loops, digit manipulation, ASCII, Taylor series |
+| `Assignment_4` | 4 | Recursion, prime testing, mathematical series |
+| `Assignment_5` | 5 | Functions, strings, polynomial evaluation and multiplication |
+| `Assignment_6` | 6 | Polynomial arithmetic, exponentiation, bit manipulation |
+| `Assignment_7` | 7 | Pointers, pointer arithmetic, strings, file handling |
+| `Assignment_8` | 8 | Pointer arrays, dynamic memory, matrices, function pointers, numerical integration |
+| `Assignment_9` | 9 | Employee database, structures, dynamic memory, linked lists |
 
-Representative programs:
+## Coursework Progression
 
-- `hello.c`
-- `print_my_details.c`
-- `sum.c`
-- `sum_of_squares.c`
+```text
+Basic C programming
+        ↓
+Data types and arithmetic
+        ↓
+Conditionals and mathematical programming
+        ↓
+Loops and numerical approximation
+        ↓
+Functions, recursion and algorithms
+        ↓
+Strings and polynomial operations
+        ↓
+Bit manipulation
+        ↓
+Pointers and file handling
+        ↓
+Dynamic memory, matrices and function pointers
+        ↓
+Structures, linked lists and file-based data processing
+```
 
-### Assignment 2 — Data Types and Arithmetic
+## Assignment 0 — Basic C Programming
 
-Works with integer and floating-point arithmetic, character arrays, larger integer types, and integer representation.
+Introduces the basic structure of a C program, variables, arithmetic expressions, formatted output, and console input.
 
-Representative programs:
+Files:
 
-- `diff.c`
-- `mydetails.c`
-- `square_ratio.c`
-- `budget.c`
-- `int_maximum.c`
+- `hello.c` — basic program demonstrating program structure and output.
+- `print_my_details.c` — prints student details.
+- `sum.c` — reads five integers and computes their sum.
+- `sum_of_squares.c` — reads three integers and computes the sum of their squares.
 
-### Assignment 3 — Conditionals and Polynomial Operations
+## Assignment 1 — Data Types and Arithmetic
 
-Introduces decision making, quadratic equations, discriminants, and first-order polynomial operations.
+Focuses on different C data types, integer and floating-point arithmetic, character arrays, formatted input/output, and integer representation.
 
-Representative programs:
+Files:
 
-- `quad.c`
-- `poly_add.c`
-- `poly_mul.c`
-- `first_order_poly.c`
+- `diff.c` — difference between two integers.
+- `mydetails.c` — reads and displays student information.
+- `square_ratio.c` — computes a ratio involving the sum of squares and floating-point values.
+- `budget.c` — performs institute-budget and computer-purchase calculations.
+- `int_maximum.c` — demonstrates the maximum value representable by an integer.
 
-### Assignment 4 — Iteration and Numerical Approximation
+## Assignment 2 — Conditionals and Polynomial Operations
 
-Uses `for` and `while` loops, ASCII characters, digit extraction, and Taylor-series approximation.
+Introduces conditional statements and mathematical programming through quadratic equations and polynomial operations.
 
-Representative programs:
+Files:
 
-- `ee19b108_alph.c`
-- `digit.c`
-- `taylor_series_log.c`
+- `quad.c` — solves a quadratic equation and classifies its roots.
+- `poly_add.c` — adds two first-order polynomials.
+- `poly_mul.c` — multiplies two first-order polynomials.
+- `first_order_poly.c` — multiplies first-order polynomials in two variables.
 
-### Assignment 5 — Recursion and Mathematical Algorithms
+The folder also contains `main.exe` and `quad.exe`, which are compiled executables rather than source files.
 
-Introduces recursive functions, primality testing, alternating series, reusable functions, and input validation.
+## Assignment 3 — Iteration and Numerical Approximation
 
-Representative programs:
+Introduces `for` and `while` loops through character processing, digit extraction, and Taylor-series approximation.
 
-- `binomial_coefficient.cpp`
-- `prime_numbers.c`
-- `sum_of_series.c`
+Files:
 
-### Assignment 6 — Modular Programming and Strings
+- `ee19b108_alph.c` — prints the lowercase English alphabet.
+- `digit.c` — decomposes an integer into decimal digits.
+- `taylor_series_log.c` — approximates `ln(1+x)` using the first ten terms of its Taylor series.
 
-Focuses on reusable functions, polynomial evaluation and multiplication, arrays, and basic string processing.
+## Assignment 4 — Recursion and Mathematical Algorithms
 
-Representative programs:
+Introduces recursive functions and mathematical algorithms.
 
-- `poly.c`
-- `poly_mul.c`
-- `string.c`
+Files:
 
-### Assignment 7 — Polynomial Arithmetic and Bit Manipulation
+- `binomial_coefficient.cpp` — computes a binomial coefficient using recursive factorial functions.
+- `prime_numbers.c` — checks whether an integer is prime.
+- `sum_of_series.c` — evaluates an alternating mathematical series for different values of `N`.
 
-Uses coefficient arrays, polynomial multiplication and exponentiation, reusable functions, and bit-mask based string operations.
+This assignment contains the only C++ source file in the repository; the remaining coursework is primarily C.
 
-Representative programs:
+## Assignment 5 — Functions, Strings and Polynomial Operations
 
-- `1st_order_poly.c`
-- `poly_multiplication.c`
-- `poly_power.c`
-- `bit_fields.c`
+Focuses on modular programming and reusable functions.
 
-### Assignment 8 — Pointers and File Handling
+Files:
 
-Introduces pointer arithmetic, custom string functions, and line-oriented file input.
+- `poly.c` — evaluates a polynomial for user-specified values.
+- `poly_mul.c` — multiplies two polynomials.
+- `string.c` — performs basic string manipulation.
 
-Representative programs:
+## Assignment 6 — Polynomial Arithmetic and Bit Manipulation
 
-- `getline.c`
-- `pointer_strcat.c`
-- `pointer_strlen.cpp`
+Develops structured programming through polynomial representation and bit-mask-based string operations.
 
-### Assignment 10 — Employee Database and Data Structures
+Files:
 
-The most substantial assignment in this repository. The same employee database is implemented using multiple data representations:
+- `1st_order_poly.c` — generates a first-order polynomial of the form `(x + a)`.
+- `poly_multiplication.c` — multiplies polynomials represented using coefficient arrays.
+- `poly_power.c` — computes `(x + a)^n` using repeated polynomial multiplication.
+- `bit_fields.c` — performs string transformations controlled by bit masks.
 
-1. parallel arrays;
-2. arrays of structures;
-3. arrays of structures with linked lists.
+## Assignment 7 — Pointers and File Handling
 
-The work covers:
+Introduces pointer arithmetic and low-level string manipulation.
 
-- structures
-- pointers to structures
-- dynamic memory allocation
-- linked lists
-- file handling
-- searching
-- data representation trade-offs
-- basic time/space complexity analysis
+Files:
 
-Representative programs:
+- `getline.c` — custom implementation for reading lines from a text file.
+- `pointer_strcat.c` — implements string concatenation using pointers.
+- `pointer_strlen.cpp` — computes string length using pointer arithmetic.
 
-- `array.c`
-- `Array_of_structures.c`
-- `array_of_structures_list.c`
+`pointer_strlen.cpp` is a C++ source file despite the assignment being primarily a C programming exercise.
 
-## Most Substantial Work
+## Assignment 8 — Pointers, Dynamic Memory, Matrices and Function Pointers
 
-The later assignments provide the strongest evidence of programming depth.
+Introduces more advanced C programming concepts including arrays of pointers, dynamic memory allocation, two-dimensional arrays, matrix multiplication, function pointers, and numerical integration.
 
-### Assignment 8
+Files:
 
-Demonstrates low-level string manipulation using pointers and a custom file-reading function.
+- `pointer_array.c` — reads strings and stores them using an array of pointers with dynamically allocated memory.
+- `mat_mul.c` — multiplies a `4 × 5` matrix by a `5 × 3` matrix using two-dimensional arrays.
+- `trapzd.c` — performs numerical integration using the trapezoidal rule and a function pointer.
 
-### Assignment 10
+The `EE1103` label present in some source/header material is treated as a typo for this repository documentation.
 
-Provides the strongest single piece of coursework in this repository. The same employee database is represented using arrays, structures, and linked lists, allowing direct comparison of fixed-size and dynamically linked representations.
+## Assignment 9 — Employee Database and Data Structures
 
-The linked-list implementation uses dynamic allocation for project information and demonstrates traversal, insertion, memory management, and structured data processing.
+Implements an employee database using three different data representations.
 
-## Language and Tools
+Files:
+
+- `array.c` — represents employee information using separate arrays.
+- `Array_of_structures.c` — represents each employee using an array of structures.
+- `array_of_structures_list.c` — represents employees using structures and dynamically allocated linked lists for project information.
+
+The programs work with information such as:
+
+- employee ID
+- name
+- employment status
+- job title
+- rating
+- projects
+- hours per week
+- reporting relationships
+
+The assignment demonstrates structures, pointers to structures, dynamic memory allocation, linked lists, file handling, searching, and comparison of data representations.
+
+The programs expect an input file named:
+
+```text
+employee_data.txt
+```
+
+This file is referenced by the source code but is **not present in the supplied repository archive**.
+
+## Languages and Tools
 
 - C
-- C++ (one assignment exercise)
+- C++
 - GCC / G++
 - Standard C libraries such as `stdio.h`, `stdlib.h`, `string.h`, and `math.h`
 
-## Building a Program
+## Building the Programs
 
-Most individual programs are standalone source files. For example:
+Most source files are standalone programs.
+
+For C:
 
 ```bash
-gcc assignments/Assignment_10/array.c -o array
-./array
+gcc path/to/program.c -o program
+./program
 ```
 
 For C++:
 
 ```bash
-g++ assignments/Assignment_5/binomial_coefficient.cpp -o binomial_coefficient
-./binomial_coefficient
+g++ path/to/program.cpp -o program
+./program
 ```
 
-Refer to the README inside each assignment directory for the program descriptions and assignment-specific compilation notes.
+For example:
 
-## Why Some Files Are Not Included
+```bash
+gcc Assignment_9/array.c -o array
+./array
+```
 
-The original coursework directory also contained:
+The programs that read external data require their expected input files to be present in the working directory.
 
-- assignment problem-statement PDFs;
-- lecture notes;
-- lecture recordings;
-- compiled Windows executables.
+## Repository Notes
 
-These are intentionally excluded from the GitHub repository. The repository is meant to contain the student's implementation work and documentation, not redistributed course material or generated binaries.
+The assignment PDFs are included in the current coursework archive for reference.
 
-## Assignment 9 Note
+For a clean public GitHub repository, generated executables such as:
 
-The uploaded source files under the original `Assignment_9` directory identify themselves as **EE1103 – Numerical Methods**, including the source-code headers and assignment README. Because this repository represents **EE1102 – Introduction to Programming**, that directory has been left out rather than incorrectly presenting EE1103 coursework as EE1102 work.
+```text
+main.exe
+quad.exe
+```
 
-## Resume Relevance
+would normally be removed or ignored.
 
-This repository is best treated as **coursework evidence**, not as a standalone project. The strongest material for highlighting programming ability is:
+The `.git` directory is repository metadata and does not need to be described as part of the coursework itself.
 
-- pointers and file handling from Assignment 8;
-- structures, dynamic memory, linked lists, and data representation from Assignment 10;
-- bit manipulation from Assignment 7;
-- recursion and modular programming from Assignments 5–6.
+## Scope
 
-For an ML-hardware-oriented profile, the repository complements larger hardware/architecture projects by demonstrating a C-level programming foundation.
+This repository is a collection of **coursework implementations**, not a single standalone software project. Its main value is in showing the progression from basic C programming to pointers, dynamic memory, function pointers, structures, linked lists, and file-based data processing.

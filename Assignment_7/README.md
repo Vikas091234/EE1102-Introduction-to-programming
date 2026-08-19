@@ -6,37 +6,34 @@ EE1102 – Introduction to Programming
 
 ## Objective
 
-This assignment introduces structured program design through polynomial manipulation and bit-level string operations. The programs focus on reusable functions, polynomial arithmetic, polynomial exponentiation, and character processing using bit masks.
+This assignment introduces pointer arithmetic and file handling through the implementation of commonly used string-processing functions. The programs demonstrate how pointers can be used to manipulate strings efficiently without relying on standard library implementations.
 
 ## Learning Outcomes
 
 After completing this assignment, I learned to:
 
-- Design reusable functions
-- Represent polynomials using arrays
-- Perform polynomial multiplication
-- Compute polynomial powers
-- Manipulate strings using bit operations
-- Handle invalid input gracefully
+- Manipulate strings using pointers
+- Implement standard string operations from scratch
+- Read text files line by line
+- Perform pointer arithmetic
+- Work with file input/output
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| 1st_order_poly.c | Generates a first-order polynomial of the form (x + a). |
-| poly_multiplication.c | Multiplies two polynomials represented using coefficient arrays. |
-| poly_power.c | Computes (x + a)^n using repeated polynomial multiplication. |
-| bit_fields.c | Performs various string transformations using bit-mask controlled operations. |
+| getline.c | Reads a text file line by line using a custom implementation of `getline()`. |
+| pointer_strcat.c | Implements string concatenation using pointer arithmetic. |
+| pointer_strlen.c | Computes the length of a string using pointer arithmetic. |
 
 ## Concepts Covered
 
+- Pointers
+- Pointer Arithmetic
+- Strings
+- File Handling
 - Functions
-- Arrays
-- Polynomial Arithmetic
-- Bit Manipulation
-- String Processing
-- Modular Programming
 
 ## Reference
 
-See `Assignment-6-2023-Fall.pdf` for the original assignment specification.
+See `Assignment-7-2023-Fall.pdf` for the original assignment specification.

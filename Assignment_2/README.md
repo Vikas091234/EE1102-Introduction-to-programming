@@ -6,37 +6,36 @@ EE1102 – Introduction to Programming
 
 ## Objective
 
-This assignment introduces the use of different C data types and arithmetic operations through simple programming exercises. The programs focus on integer and floating-point computations, character arrays, large integer types, and understanding the limits of integer representation.
+This assignment introduces conditional statements and mathematical programming through polynomial operations and quadratic equation solving. The programs demonstrate decision making, arithmetic computations, and polynomial manipulation using first-order polynomials.
 
 ## Learning Outcomes
 
 After completing this assignment, I learned to:
 
-- Select appropriate C data types (`int`, `float`, `char[]`, `long long int`)
-- Read user input using `scanf()`
-- Perform arithmetic operations
-- Store and manipulate strings
-- Understand integer limits and data representation
+- Solve quadratic equations using the discriminant
+- Classify roots based on the discriminant
+- Perform addition and multiplication of first-order polynomials
+- Apply conditional statements (`if`, `else if`, `else`)
+- Use mathematical library functions such as `sqrt()`
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| diff.c | Computes the difference between two integers entered by the user. |
-| mydetails.c | Reads and displays personal information entered by the user. |
-| square_ratio.c | Computes the ratio of the sum of squares to the sum of three floating-point numbers. |
-| budget.c | Calculates the institute budget and estimates the number of computers that can be purchased. |
-| int_maximum.c | Demonstrates the concept of the maximum value representable by an integer. |
+| quad.c | Solves a quadratic equation and determines the nature of its roots. |
+| poly_add.c | Computes the sum of two first-order polynomials. |
+| poly_mul.c | Computes the product of two first-order polynomials. |
+| first_order_poly.c | Computes the product of two first-order polynomials in two variables. |
 
 ## Concepts Covered
 
-- Integer arithmetic
-- Floating-point arithmetic
-- Character arrays
-- Large integer types
-- Formatted input/output
-- Integer representation
+- Conditional Statements
+- Mathematical Expressions
+- Polynomial Arithmetic
+- Quadratic Equations
+- Floating-Point Computation
+- Mathematical Library (`math.h`)
 
 ## Reference
 
-See `Assignment-1-2023-Fall.pdf` for the original problem statement.
+See `Assignment-2a-2023-Fall.pdf` for the original assignment specification.

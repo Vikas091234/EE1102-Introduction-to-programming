@@ -6,35 +6,34 @@ EE1102 – Introduction to Programming
 
 ## Objective
 
-This assignment introduces recursive functions, iterative algorithms, and mathematical computations through problems involving binomial coefficients, prime number testing, and alternating series.
+This assignment introduces modular programming by implementing reusable functions for polynomial evaluation, polynomial multiplication, and basic string manipulation.
 
 ## Learning Outcomes
 
 After completing this assignment, I learned to:
 
-- Implement recursive functions
-- Check whether a number is prime
-- Evaluate alternating mathematical series
-- Design reusable functions
-- Validate user input
+- Design modular programs using functions
+- Evaluate polynomials efficiently
+- Perform polynomial multiplication
+- Manipulate strings using character arrays
+- Work with arrays and loops
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| binomial_coefficient.cpp | Computes the binomial coefficient (N choose K) using recursive factorial functions. |
-| prime_numbers.c | Determines whether a given integer is prime. |
-| sum_of_series.c | Computes the alternating series for different values of N and displays the results in tabular form. |
+| poly.c | Evaluates a polynomial for user-specified values of x. |
+| poly_mul.c | Multiplies two polynomials and prints the resulting polynomial. |
+| string.c | Performs basic string manipulation operations. |
 
 ## Concepts Covered
 
-- Recursion
 - Functions
-- Prime Numbers
-- Loops
-- Mathematical Series
-- Input Validation
+- Arrays
+- Strings
+- Polynomial Evaluation
+- Modular Programming
 
 ## Reference
 
-See `Assignment-4-2023-Fall.pdf` for the original assignment specification.
+See `Assignment-5-2023-Fall.pdf` for the original assignment specification.
